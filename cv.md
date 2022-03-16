@@ -5,7 +5,7 @@
 
 ### *Contacts* 
 * Location: VORONEZH, RUSSIA
-* Phone: +7-9876543210
+* Phone: (+7)9876543210
 * Email: pini86@mail.ru
 * GitHub: pini86
 * Discord : MikhailD#7822
