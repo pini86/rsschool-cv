@@ -58,6 +58,7 @@ University : VIHT (Voronezh Institute of High Technologies) , networking Enginee
 __________________
 
 ### *Courses:*
++ JS/FE Pre-School 2022
 + CS50 lectures
 + RU.CODE-BASICS
 + Cisco Networking Academy (CCNA)
