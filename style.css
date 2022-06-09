@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+.header {
+  background-color: bisque;
+}
+
+.header-container {
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+
+a {
+  color: #04198b;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-title {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .section {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.main-image {
+  padding: 10px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+.contacts {
+  list-style: none;
+}
+
+.contacts-item {
+  padding: 5px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.location {
+  background-image: url("./assets/svg/free-icon-font-marker-3916880.svg");
+}
+
+.email {
+  background-image: url("./assets/svg/free-icon-font-envelope-3916611.svg");
+}
+
+.github {
+  background-image: url("./assets/svg/git.svg");
+}
+
+.discord {
+  background-image: url("./assets/svg/free-icon-font-discord-6422197.svg");
+}
+
+.phone {
+  background-image: url("./assets/svg/free-icon-font-phone-call-5070407.svg");
+}
+
+.whatsapp {
+  background-image: url("./assets/svg/free-icon-font-whatsapp-6422213.svg");
+}
+
+.telegram {
+  background-image: url("./assets/svg/free-icon-font-telegram-6422206.svg");
+}
+
+.footer {
+  background-color: bisque;
+}
+
+.footer-container {
+  max-width: 1440px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.year {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 900;
+}
+
+.git_img {
+  width: 64px;
+}
+
+.rs_img {
+  width: 175px;
+}
