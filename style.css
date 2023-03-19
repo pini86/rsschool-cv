@@ -65,6 +65,7 @@ a:hover {
 }
 
 .section-title {
+  width: 90%;
   text-align: center;
 }
 
@@ -81,11 +82,17 @@ h1 {
 
 .main-image {
   padding: 10px;
-  width: 70%;
+  width: 95%;
   height: auto;
   display: block;
   margin: 0 auto;
   border-radius: 10%;
+  border: 2px solid #c2b59d;
+  outline: 1px solid #fff;
+}
+
+.wrap-image {
+  width: 90%;
 }
 
 .contacts {
@@ -169,4 +176,31 @@ h1 {
 
 .codewars-image {
   height: 2rem;
+}
+
+.shadow {
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative;
+}
+
+.shadow::before,
+.shadow::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  max-width: 300px;
+  height: 15px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+  transform: rotate(-3deg);
+  z-index: -1;
+}
+
+.shadow::after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
 }
